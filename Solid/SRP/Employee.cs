@@ -41,7 +41,7 @@ namespace Solid.SRP
 
     public class ReportGenerator
     {
-        public void GenerateReport(string reportType)
+        public void GenerateReport(SREmployee employee, string reportType)
         {
             //Code to generate report based on reportType
         }
@@ -49,7 +49,7 @@ namespace Solid.SRP
 
     public class Notification
     {
-        public void SendNotification(string recipient, string message)
+        public void SendNotification(SREmployee employee, string recipient, string message)
         {
             // Code to send email notification
         }
